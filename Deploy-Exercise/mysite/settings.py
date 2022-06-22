@@ -72,6 +72,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'mysite.wsgi.application'
 
+CSRF_TRUSTED_ORIGINS = ['https://*.herokuapp.com']
 
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
